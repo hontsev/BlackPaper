@@ -1,0 +1,9 @@
+E:\CProjects\BlackPaper\BlackPaper\bin\Debug\BlackPaper.exe.config
+E:\CProjects\BlackPaper\BlackPaper\bin\Debug\BlackPaper.exe
+E:\CProjects\BlackPaper\BlackPaper\bin\Debug\BlackPaper.pdb
+E:\CProjects\BlackPaper\BlackPaper\obj\Debug\BlackPaper.Properties.Resources.resources
+E:\CProjects\BlackPaper\BlackPaper\obj\Debug\BlackPaper.csproj.GenerateResource.Cache
+E:\CProjects\BlackPaper\BlackPaper\obj\Debug\BlackPaper.exe
+E:\CProjects\BlackPaper\BlackPaper\obj\Debug\BlackPaper.pdb
+E:\CProjects\BlackPaper\BlackPaper\obj\Debug\BlackPaper.BlackForm.resources
+E:\CProjects\BlackPaper\BlackPaper\obj\Debug\BlackPaper.csprojResolveAssemblyReference.cache
