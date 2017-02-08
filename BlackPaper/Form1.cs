@@ -245,10 +245,6 @@ namespace BlackPaper
                 toolStripMenuItem3.Checked = false;
                 toolStripMenuItem4.Checked = false;
             }
-            else
-            {
-                this.Opacity = 0.25;
-            }
             自动调整亮度ToolStripMenuItem.Checked = isAutoChange;
         }
 
