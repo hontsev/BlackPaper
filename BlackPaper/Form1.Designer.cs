@@ -41,17 +41,16 @@
             this.自动调整亮度ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.开机自动启动ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.关闭菜单ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // notifyIcon1
             // 
+            this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
             this.notifyIcon1.Text = "BlackPaper";
             this.notifyIcon1.Visible = true;
-            this.notifyIcon1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseClick);
             // 
             // contextMenuStrip1
             // 
@@ -64,80 +63,72 @@
             this.透明ToolStripMenuItem,
             this.自动调整亮度ToolStripMenuItem,
             this.开机自动启动ToolStripMenuItem,
-            this.退出ToolStripMenuItem,
-            this.关闭菜单ToolStripMenuItem});
+            this.退出ToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(149, 224);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 224);
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem4.Text = "最黑+++++";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click_1);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem3.Text = "极黑++++";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click_1);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem2.Text = "更黑+++";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click_1);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem1.Text = "较黑++";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // 黑度1ToolStripMenuItem
             // 
             this.黑度1ToolStripMenuItem.Name = "黑度1ToolStripMenuItem";
-            this.黑度1ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.黑度1ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.黑度1ToolStripMenuItem.Text = "稍黑+";
             this.黑度1ToolStripMenuItem.Click += new System.EventHandler(this.黑度1ToolStripMenuItem_Click);
             // 
             // 透明ToolStripMenuItem
             // 
             this.透明ToolStripMenuItem.Name = "透明ToolStripMenuItem";
-            this.透明ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.透明ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.透明ToolStripMenuItem.Text = "透明 -";
             this.透明ToolStripMenuItem.Click += new System.EventHandler(this.透明ToolStripMenuItem_Click);
             // 
             // 自动调整亮度ToolStripMenuItem
             // 
             this.自动调整亮度ToolStripMenuItem.Name = "自动调整亮度ToolStripMenuItem";
-            this.自动调整亮度ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.自动调整亮度ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.自动调整亮度ToolStripMenuItem.Text = "自动亮度 @";
             this.自动调整亮度ToolStripMenuItem.Click += new System.EventHandler(this.自动调整亮度ToolStripMenuItem_Click);
             // 
             // 开机自动启动ToolStripMenuItem
             // 
             this.开机自动启动ToolStripMenuItem.Name = "开机自动启动ToolStripMenuItem";
-            this.开机自动启动ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.开机自动启动ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.开机自动启动ToolStripMenuItem.Text = "开机自动启动";
             this.开机自动启动ToolStripMenuItem.Click += new System.EventHandler(this.开机自动启动ToolStripMenuItem_Click);
             // 
             // 退出ToolStripMenuItem
             // 
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.退出ToolStripMenuItem.Text = "退出";
             this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
-            // 
-            // 关闭菜单ToolStripMenuItem
-            // 
-            this.关闭菜单ToolStripMenuItem.Name = "关闭菜单ToolStripMenuItem";
-            this.关闭菜单ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.关闭菜单ToolStripMenuItem.Text = "关闭菜单";
-            this.关闭菜单ToolStripMenuItem.Click += new System.EventHandler(this.关闭菜单ToolStripMenuItem_Click_1);
             // 
             // timer1
             // 
@@ -182,7 +173,6 @@
         private System.Windows.Forms.ToolStripMenuItem 开机自动启动ToolStripMenuItem;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ToolStripMenuItem 自动调整亮度ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 关闭菜单ToolStripMenuItem;
     }
 }
 

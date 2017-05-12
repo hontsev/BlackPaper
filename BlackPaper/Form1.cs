@@ -72,10 +72,7 @@ namespace BlackPaper
 
         private void notifyIcon1_MouseClick(object sender, MouseEventArgs e)
         {
-            if (e.Button == MouseButtons.Right)
-            {
-                contextMenuStrip1.Show(MousePosition);
-            }
+
         }
 
         private void 退出ToolStripMenuItem_Click(object sender, EventArgs e)
