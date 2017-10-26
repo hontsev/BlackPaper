@@ -89,6 +89,7 @@ namespace BlackPaper
             toolStripMenuItem2.Checked = false;
             toolStripMenuItem3.Checked = false;
             toolStripMenuItem4.Checked = false;
+            纯黑ToolStripMenuItem.Checked = false;
             isAutoChange = false;
             自动调整亮度ToolStripMenuItem.Checked = isAutoChange;
         }
@@ -102,6 +103,7 @@ namespace BlackPaper
             toolStripMenuItem2.Checked = false;
             toolStripMenuItem3.Checked = false;
             toolStripMenuItem4.Checked = false;
+            纯黑ToolStripMenuItem.Checked = false;
             isAutoChange = false;
             自动调整亮度ToolStripMenuItem.Checked = isAutoChange;
         }
@@ -116,6 +118,7 @@ namespace BlackPaper
             toolStripMenuItem2.Checked = false;
             toolStripMenuItem3.Checked = false;
             toolStripMenuItem4.Checked = false;
+            纯黑ToolStripMenuItem.Checked = false;
             isAutoChange = false;
             自动调整亮度ToolStripMenuItem.Checked = isAutoChange;
         }
@@ -129,6 +132,7 @@ namespace BlackPaper
             toolStripMenuItem2.Checked = true;
             toolStripMenuItem3.Checked = false;
             toolStripMenuItem4.Checked = false;
+            纯黑ToolStripMenuItem.Checked = false;
             isAutoChange = false;
             自动调整亮度ToolStripMenuItem.Checked = isAutoChange;
         }
@@ -142,6 +146,7 @@ namespace BlackPaper
             toolStripMenuItem2.Checked = false;
             toolStripMenuItem3.Checked = true;
             toolStripMenuItem4.Checked = false;
+            纯黑ToolStripMenuItem.Checked = false;
             isAutoChange = false;
             自动调整亮度ToolStripMenuItem.Checked = isAutoChange;
         }
@@ -155,6 +160,7 @@ namespace BlackPaper
             toolStripMenuItem2.Checked = false;
             toolStripMenuItem3.Checked = false;
             toolStripMenuItem4.Checked = true;
+            纯黑ToolStripMenuItem.Checked = false;
             isAutoChange = false;
             自动调整亮度ToolStripMenuItem.Checked = isAutoChange;
         }
@@ -274,6 +280,20 @@ namespace BlackPaper
         private void 关闭菜单ToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             contextMenuStrip1.Hide();
+        }
+
+        private void 纯黑ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Opacity = 1;
+            透明ToolStripMenuItem.Checked = false;
+            黑度1ToolStripMenuItem.Checked = false;
+            toolStripMenuItem1.Checked = false;
+            toolStripMenuItem2.Checked = false;
+            toolStripMenuItem3.Checked = false;
+            toolStripMenuItem4.Checked = false;
+            纯黑ToolStripMenuItem.Checked = true;
+            isAutoChange = false;
+            自动调整亮度ToolStripMenuItem.Checked = isAutoChange;
         }
     }
 }
